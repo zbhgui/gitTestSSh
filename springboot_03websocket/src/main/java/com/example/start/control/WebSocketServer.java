@@ -50,6 +50,7 @@ public class WebSocketServer {
       websocketMap.put(userId, this);
       addOnLineCount();
     }
+
     log.info("用户连接: {}", userId);
     log.info("当前在线人数:{}", getOnLineCount());
   }
